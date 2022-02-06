@@ -89,6 +89,7 @@ video {
   vertical-align: baseline;
 }
 
+/* Custom CSS */
 html {
   background-image: url(../images/clouds_background.jpg);
   background-position: center;
@@ -128,7 +129,8 @@ details {
   margin: 2% 0;
 }
 
-#row {
+/*This container div is used to easily swicth between row and column orientation as the screen size is adjusted. */
+#container {
   display: flex;
   flex-direction: column;
 }
@@ -196,6 +198,7 @@ footer {
   text-align: center;
 }
 
+/* Media Queries */
 @media (min-width: 900px) {
   h2 {
     margin-bottom: 5%;
@@ -235,7 +238,7 @@ footer {
     margin: 2.5% 0;
   }
 
-  #row {
+  #container {
     flex-direction: row;
   }
 
